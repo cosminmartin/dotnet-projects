@@ -1,0 +1,30 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+footer {
+    line-height: 100px;
+    position: fixed;
+    background: rgba(28, 32, 36, 1);
+    bottom: 0px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100px;
+    text-align: center;
+}
